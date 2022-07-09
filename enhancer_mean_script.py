@@ -88,3 +88,4 @@ if __name__ == "__main__":
     df['chr'] = bed.chr.loc[0]
     df[['steps', 'median_scores', 'chr']].to_csv(filename, index=False,
                                                  sep='\t')
+    print("hello world")
